@@ -4,5 +4,7 @@
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 25vw;
-    color: blue;
+    @media screen and (min-width: 768) {
+        width: 10vw;
+    }
 }
