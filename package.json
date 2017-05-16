@@ -29,6 +29,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --progress --colors --watch",
+    "start": "webpack-dev-server"
   }
 }

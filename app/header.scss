@@ -4,7 +4,13 @@
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 25vw;
+    transition: all ease-in-out 1s;
     @media screen and (min-width: 768) {
         width: 10vw;
+    }
+    &.small {
+        width: 50px;
+        top: 10px;
+        transform: translate(-50%, 0);
     }
 }
