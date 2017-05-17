@@ -10,6 +10,7 @@ body {
     font-family: 'Crimson Text', sans-serif;
     background-color: #0000ff;
     transition: all ease-in 2s;
+
     main, footer {
         opacity: .2;
         transition: opacity ease-in 1s;
@@ -18,6 +19,13 @@ body {
         background-color: #f7f3ed;
         main, footer {
             opacity: 1;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        &.loaded {
+            background-image: url("/img/bg.jpg");
+            background-size: cover;
+            min-height: 100vh;
         }
     }
 }
