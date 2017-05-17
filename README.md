@@ -1,8 +1,10 @@
 # joshmckenney.com
 The site, it all it's sheer glory.
 
-#To run live dev environment:
+#To build with watch:
 $ yarn run build
+
+#To run live dev environment:
 $ yarn run start
 
 #To deploy to google cloud app engine:

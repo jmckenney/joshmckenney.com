@@ -8,12 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="dist/css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>
+        <header id="header">
             <svg version="1.1" id="svg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 91.4 132.8" style="enable-background:new 0 0 91.4 132.8;" xml:space="preserve">
             <style type="text/css">
@@ -37,30 +38,37 @@
             </svg>
         </header>
         <main>
-            <!--<h1>
-                Hey, I'm Josh
+            <h1>
+                Hey, I&rsquo;m Josh
             </h1>
-            <h2>
-                A full stack web dev with 17+ years experience managing team members, 
-                processes, and tech. I'm a fluent communicator, parsing business and technical details 
+            <p>
+                A full stack web architect with 17+ years experience managing team members, 
+                processes, and tech. I&rsquo;m a fluent communicator, parsing business and technical details 
                 into clear goals. I relish the opportunity to help and develop team members. Hiking 
                 and photography are in my blood and solving code and business challenges keep my 
-                mind moving daily.
-            </h2>-->
+                mind moving daily. Take my <a href="Resume-Josh-McKenney.pdf">resume</a> and hold 
+                it close to your heart. 
+            </p>
         </main>
         <footer>
-
+            <p>
+                This site is simple – what powers it is not. 
+                <a href="https://github.com/jmckenney/joshmckenney.com/" target="_blank">Currently exploring</a> 
+                <a href="https://yarnpkg.com/en/" target="_blank">Yarn</a> instead of npm, 
+                <a href="https://webpack.js.org/" target="_blank">Webpack</a> over gulp, 
+                <a href="https://www.ecma-international.org/ecma-262/6.0/" target="_blank">es6</a> over jQuery, etc.
+            </p>
         </footer>
         <script src="dist/bundle.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+            ga('create','UA-99328334-1','auto');ga('send','pageview');
         </script>
     </body>
 </html>

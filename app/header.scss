@@ -1,11 +1,19 @@
+header {
+    height: 90px;
+}
+
 #svg-logo {
     position: absolute;
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 25vw;
-    transition: all ease-in-out 1s;
-    @media screen and (min-width: 768) {
+    transition: 
+        transform cubic-bezier(0.18, 0.82, 0.33, 0.93) 2s,
+        top cubic-bezier(0.18, 0.82, 0.33, 0.93) 2s,
+        width ease 1s
+        ;
+    @media screen and (min-width: 768px) {
         width: 10vw;
     }
     &.small {
