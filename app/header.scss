@@ -24,7 +24,8 @@ header {
             animation-name: svgfill;
             animation-duration: 3s;
             animation-iteration-count: 1;
-            fill: black;
+            fill: #0000ff;
+            stroke: #0000ff;
         }
     }
 }
@@ -32,8 +33,10 @@ header {
 @keyframes svgfill {
     0% {
         fill: white;
+        stroke: white;
     }
     100% {
-        fill: black;
+        fill: #0000ff;
+        stroke: #0000ff;
     }
 }
