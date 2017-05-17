@@ -12,13 +12,28 @@ header {
         transform cubic-bezier(0.18, 0.82, 0.33, 0.93) 2s,
         top cubic-bezier(0.18, 0.82, 0.33, 0.93) 2s,
         width ease 1s
-        ;
+    ;
     @media screen and (min-width: 768px) {
         width: 10vw;
     }
     &.small {
         width: 50px;
-        top: 10px;
+        top: 20px;
         transform: translate(-50%, 0);
+        path {
+            animation-name: svgfill;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            fill: black;
+        }
+    }
+}
+
+@keyframes svgfill {
+    0% {
+        fill: white;
+    }
+    100% {
+        fill: black;
     }
 }

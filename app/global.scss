@@ -1,0 +1,22 @@
+body {
+    font-family: 'Crimson Text', sans-serif;
+}
+header, main, footer {
+    width: 90vw;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        width: 90vw;
+        max-width: 600px;
+    }
+}
+body {
+    main, footer {
+        opacity: .2;
+        transition: opacity ease-in 1s;
+    }
+    &.loaded {
+        main, footer {
+            opacity: 1;
+        }
+    }
+}
