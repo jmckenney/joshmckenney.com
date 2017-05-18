@@ -2,6 +2,7 @@
 var Vivus = require('../node_modules/vivus');
 require('./global.scss');
 require('./header.scss');
+require('./footer.scss');
 
 var logoElement = document.getElementById("svg-logo");
 
